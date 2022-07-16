@@ -3,8 +3,69 @@ body {
     background: url(../img/bgc.png) no-repeat;
     background-size: cover;
     
+    
 }
 
-.color {
-    color: #CDAA7D;
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+
+.container{
+    
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.colortext {
+    color: white;
+    transition: 0.2s linear
+}
+
+.colortext:hover {
+
+    color: rgb(141, 138, 138)
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.vk {
+    width: 25px;
+    margin-bottom: 10px;
+    position: absolute;
+    transition: 0.1s linear
+}
+
+
+.vk:hover {
+    width: 30px;
+}
+
+.line {
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(168, 167, 167);
+   }
+
+.ponos {
+    font-family: bold;
+    font-size: 40px;
+    color: #b6b5b5;
+   width: 600px;
+   
 }
